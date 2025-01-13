@@ -43,7 +43,7 @@ body {
 .text {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 82%;
 
   color: hsl(216, 15%, 48%);
 }
