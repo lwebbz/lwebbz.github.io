@@ -147,10 +147,13 @@
   .component-container {
     flex-direction: row;
     gap: 30px;
+    align-items: flex-end;
   }
 
   .logo-section {
     max-width: 375px;
+    margin-bottom: 0px;
+    height: 235px;
   }
 
   .usage-section {
