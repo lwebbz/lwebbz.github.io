@@ -560,6 +560,15 @@
   .h-auto {
     height: auto;
   }
+  .h-dvh {
+    height: 100dvh;
+  }
+  .h-lvh {
+    height: 100lvh;
+  }
+  .min-h-dvh {
+    min-height: 100dvh;
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -631,6 +640,15 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+  .place-self-end {
+    place-self: end;
+  }
+  .self-end {
+    align-self: flex-end;
+  }
+  .justify-self-end {
+    justify-self: flex-end;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);

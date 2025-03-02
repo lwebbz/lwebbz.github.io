@@ -15,7 +15,9 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
   </head>
-  <body class="font-[OpenSans] flex flex-col place-items-center text-lg">
+  <body
+    class="min-h-dvh font-[OpenSans] flex flex-col place-items-center text-lg"
+  >
     <header
       class="w-full flex flex-col place-items-center bg-[var(--very-pale-cyan)] bg-[url(assets/images/bg-hero-mobile.svg)] bg-center bg-no-repeat bg-cover mb-16 md:bg-[url(assets/images/bg-hero-desktop.svg)] md:mb-20"
     >
@@ -118,7 +120,7 @@
         <img
           src="assets/images/illustration-your-users.svg"
           alt="Users"
-          class="md:max-w-sm md:shrink md:order-2 pb-12"
+          class="pb-12 md:max-w-sm md:shrink md:order-2"
         />
 
         <div class="md:max-w-lg md:pl-10 md:order-1">
@@ -138,7 +140,7 @@
       </section>
     </main>
     <footer
-      class="flex flex-col bg-[var(--very-dark-cyan)] place-items-center box-border pl-5 pr-5 w-full"
+      class="flex flex-col bg-[var(--very-dark-cyan)] place-items-center box-border pl-5 pr-5 w-full self-end justify-self-end"
     >
       <div
         class="flex flex-col place-items-center relative shadow-[0_0px_5px_gray] rounded-2xl bg-white -top-24 w-full max-w-md md:max-w-xl"
