@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+  </head>
+  <body class="font-[OpenSans] flex flex-col place-items-center text-lg">
+    <header
+      class="w-full flex flex-col place-items-center bg-[var(--very-pale-cyan)] bg-[url(assets/images/bg-hero-mobile.svg)] bg-center bg-no-repeat bg-cover mb-16 md:bg-[url(assets/images/bg-hero-desktop.svg)] md:mb-20"
+    >
+      <div
+        class="flex justify-between w-full pt-5 pb-16 pl-5 pr-5 md:box-border md:pl-12 md:pr-12 md:pt-8"
+      >
+        <img
+          src="assets/images/logo.svg"
+          alt="Huddle logo"
+          class="w-32 h-auto"
+        />
+        <button
+          class="bg-white pl-6 pr-6 pt-1.5 pb-1.5 rounded-3xl font-bold text-xs shadow-[0_2px_5px_lightgray] hover:cursor-pointer"
+        >
+          Try It Free
+        </button>
+      </div>
+      <div
+        class="flex flex-col place-items-center md:flex-row md:box-border md:pl-10 md:pr-10"
+      >
+        <div
+          class="box-border flex flex-col pl-8 pr-8 place-items-center pb-13 md:max-w-2xl"
+        >
+          <h1
+            class="text-center font-[Poppins] text-2xl pb-5 md:text-left md:text-4xl"
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="pb-8 text-center md:text-left">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button
+            class="bg-[var(--pink)] pl-14 pr-14 pt-3 pb-3 rounded-3xl text-white font-bold text-xs md:self-start hover:cursor-pointer"
+          >
+            Get Started For Free
+          </button>
+        </div>
+        <img
+          src="assets/images/illustration-mockups.svg"
+          alt="Mockups"
+          class="w-[80%] h-auto pb-9 max-w-3xl"
+        />
+      </div>
+    </header>
+    <main
+      class="box-border flex flex-col pl-6 pr-6 pb-52 place-items-center md:w-full"
+    >
+      <section
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-border pt-14 pl-4 pr-4 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-between"
+      >
+        <img
+          src="assets/images/illustration-grow-together.svg"
+          alt="Grow together"
+          class="pb-12 md:order-2 md:max-w-sm md:shrink"
+        />
+        <div class="md:order-1 md:max-w-lg md:pl-10">
+          <h2
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
+          >
+            Grow Together
+          </h2>
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+      </section>
+      <section
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-4 pr-4 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-around"
+      >
+        <img
+          src="assets/images/illustration-flowing-conversation.svg"
+          alt="Flowing conversation"
+          class="pb-12 md:max-w-sm md:shrink md:order-1"
+        />
+
+        <div class="md:max-w-lg md:pl-10 md:order-2">
+          <h2
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
+          >
+            Flowing Conversations
+          </h2>
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </section>
+      <section
+        class="flex flex-col place-items-center shadow-[0_0px_5px_lightgray] rounded-2xl box-content pt-14 pl-4 pr-4 pb-5 mb-10 md:flex-row md:w-[85%] md:max-w-7xl md:justify-between"
+      >
+        <img
+          src="assets/images/illustration-your-users.svg"
+          alt="Users"
+          class="md:max-w-sm md:shrink md:order-2"
+        />
+
+        <div class="md:max-w-lg md:pl-10 md:order-1">
+          <h2
+            class="text-center font-[Poppins] pb-2 text-xl text-[var(--very-dark-cyan)] md:text-left"
+          >
+            Your Users
+          </h2>
+          <p
+            class="text-center text-[var(--grayish-blue)] pb-5 text-base md:text-left"
+          >
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col bg-[var(--very-dark-cyan)] place-items-center box-border pl-5 pr-5 w-full"
+    >
+      <div
+        class="flex flex-col place-items-center relative shadow-[0_0px_5px_gray] rounded-2xl bg-white -top-24 w-full max-w-md md:max-w-xl"
+      >
+        <h2 class="font-[Poppins] text-[var(--ver-dark-cyan)] pt-7 pb-5">
+          Ready To Build Your Community
+        </h2>
+        <button
+          class="bg-[var(--pink)] pl-14 pr-14 pt-3 pb-3 rounded-3xl text-white font-bold text-xs mb-9 hover:cursor-pointer"
+        >
+          Get Started For Free
+        </button>
+      </div>
+      <div class="text-white md:flex md:gap-24 md:box-border">
+        <div class="md:max-w-md">
+          <img
+            src="assets/images/logo.svg"
+            alt="Huddle Logo"
+            class="brightness-[100000] grayscale-100 h-auto w-44 -mt-10 pb-8"
+          />
+          <div class="flex pb-10 place-items-start">
+            <img
+              src="assets/images/icon-location.svg"
+              alt="location icon"
+              class="w-5 h-5 mr-8"
+            />
+            <p class="-mt-2 align-top">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="flex pb-10 place-items-start">
+            <img
+              src="assets/images/icon-phone.svg"
+              alt="phone icon"
+              class="w-5 h-5 mr-8"
+            />
+            <p class="-mt-2 -ml-1 align-top">+1-543-123-4567</p>
+          </div>
+          <div class="flex pb-10 place-items-start">
+            <img
+              src="assets/images/icon-email.svg"
+              alt="email icon"
+              class="w-6 h-5 mr-8"
+            />
+            <p class="-mt-2 -ml-2 align-top">example@huddle.com</p>
+          </div>
+        </div>
+        <ul
+          class="flex flex-col gap-4 pb-12 md:gap-x-[20px] md:gap-y-2 md:flex-wrap md:flex-row md:max-w-[280px]"
+        >
+          <li class="md:order-1 md:pr-20">
+            <a class="hover:underline" href="">About Us</a>
+          </li>
+          <li class="md:order-3 md:pr-14"><a href="">What We Do</a></li>
+          <li class="md:order-5 md:pr-32">
+            <a class="hover:underline" href="">FAQ</a>
+          </li>
+          <li class="md:order-2">
+            <a href="" class="hover:underline">Career</a>
+          </li>
+          <li class="md:order-4">
+            <a href="" class="hover:underline">Blog</a>
+          </li>
+          <li class="md:order-6">
+            <a href="" class="hover:underline">Contact Us</a>
+          </li>
+        </ul>
+        <div class="flex justify-center gap-3 pb-8 invert-100 min-w-[100px]">
+          <a href="facebook.com" class="hover:invert">
+            <img
+              src="assets/images/logo-facebook.svg"
+              alt="Facebook icon"
+              class="w-8 h-8"
+            />
+          </a>
+          <a href="twitter.com" class="hover:invert">
+            <img
+              src="assets/images/logo-twitter.svg"
+              alt="Twitter icon"
+              class="w-8 h-8"
+            />
+          </a>
+          <a href="instagram.com" class="hover:invert">
+            <img
+              src="assets/images/logo-instagram.svg"
+              alt="Instagram icon"
+              class="w-8 h-8"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex items-center justify-center w-full text-xs text-center text-white pb-14 md:text-right md:justify-end md:items-end"
+      >
+        <p class="md:pr-10">
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
